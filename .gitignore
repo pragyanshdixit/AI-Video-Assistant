@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Audio and Download artifacts
+downloads/
+temp_audio/
+*.wav
+*.mp3
+*.webm
+*.m4a
+
+# Vector database and state
+chroma_db/
+.chroma/
+
+# Environment and secrets
+.env
+.env.local
+*.log
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
